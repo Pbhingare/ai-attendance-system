@@ -308,6 +308,7 @@ def teacher_screen_login():
             st.rerun()
 
     st.header('Login using password', text_alignment='center')
+    st.markdown("<style>h1,h2,h3,label,p{color:black !important;}</style>", unsafe_allow_html=True)
     st.space()
     st.space()
 
